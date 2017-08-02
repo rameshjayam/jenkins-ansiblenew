@@ -25,7 +25,7 @@
     - name: Launch docker container
       docker_container:
         name: bottlecontainer
-        image: franklinsijo/jenkins-ansiblenew:latest
+        image: franklinsijo/ansibleimage:latest
         ports:
           - "4040:8080"
 
